@@ -1,0 +1,209 @@
+@media (min-width: 1200px){
+    .sparky_container {
+        width: 1280px;
+    }
+}
+
+.sparky_container {
+    margin: 0 auto;
+    padding: 0 90px;
+}
+a:active, a:focus {
+	outline: none !important;
+}
+ a::-moz-focus-inner {
+	border: 0 !important;
+}
+
+/* top block */
+.custom.tep-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	align-items: center;
+}
+.tep-top h3 {
+    font-family: 'DejaVu Sans Condensed';
+    font-size: 14.8px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #44535c;
+}
+a.tp-a {
+    font-family: 'DejaVu Sans Condensed';
+    font-size: 14.3px;
+    line-height: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #941345;
+    width: 165px;
+    height: 33px;
+    padding: 7px 15px;
+    border: 2px solid #941345;
+    border-radius: 16.5px;
+}
+a.tp-a:hover {
+    color: #fff;
+    border: 2px solid #941345;
+    background-color: #941345;
+}
+.hd2-tel a:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+/* header block */
+#header {
+    margin: 35px 0;
+}
+.sparky_logo_image {
+    max-width: 327px;
+}
+.mp_header1 {
+    margin-top: 30px;
+    padding: 15px 75px 0 100px;
+    border-right: 2px solid #e0e5ed;
+    height: 84px;
+}
+.hd1-tel {
+    font-family: 'DejaVu Sans Condensed';
+    font-size: 13.2px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #941345;
+    float: left;
+}
+.hd2-tel {
+    float: right;
+}
+.hd2-tel a {
+    font-family: 'DejaVu Sans Condensed';
+    font-size: 13.2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #44535c;
+    line-height: 18px;
+}
+.hd1-adress {
+    font-family: 'DejaVu Sans Condensed';
+    font-size: 13.2px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #941345;
+}
+.hd2-adress {
+    line-height: 18px;
+    font-weight: 400;
+    color: #44535c;
+}
+.custom_tph-2 {
+    float: right;
+}
+.mp_header2 {
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+/* menu block */
+#menu {
+    background-color: #941345;
+    height: 60px;
+}
+.dj-megamenu-default li a.dj-up_a.active > span{
+    font-family: 'DejaVu Sans Condensed';
+    font-size: 16.5px;
+    line-height: 21px!important;
+    height: auto!important;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #eff2f8;
+}
+
+#dj-megamenu91 li:hover a.dj-up_a, #dj-megamenu91 li.hover a.dj-up_a, #dj-megamenu91 li.active a.dj-up_a{
+    border-radius: 15px;
+}
+
+.dj-megamenu-default li a.dj-up_a > span{
+    font-family: 'DejaVu Sans Condensed';
+    font-size: 16.5px;
+    line-height: 32px!important;
+    height: auto!important;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #eff2f8;
+}
+#dj-megamenu91 li.active a.dj-up_a{
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+#dj-megamenu91 li a.dj-up_a{
+    height: auto;
+    border: none;
+    margin: 0 5px !important;
+    height: 30px;
+}
+.mp_top2 {
+    padding-top: 15px;
+}
+
+/* banner block */
+#banner {
+    height: 570px;
+}
+.custom.tp-about {
+    text-align: center;
+    padding-top: 100px;
+}
+p.tp-bnf1 {
+    font-family: 'DejaVu Sans Condensed';
+    font-size: 19.8px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #2f4d8a;
+}
+p.tp-bnf2 {
+    font-family: 'DejaVu Sans Condensed';
+    font-size: 14.8px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #121212;
+    padding-top: 40px;
+}
+
+/* licenses block*/
+#licenses {
+    background-color: #F5F6FA;
+}
+
+/*  contact block */
+#contacts {
+    border-top: 16px solid #941345;
+}
+.tp-cont-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* footer block */
+p.tp-footer {
+    font-family: 'DejaVu Sans Condensed';
+    font-size: 11.5px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.024em;
+    color: #174c90;
+}
+.tp-footer a {
+    font-family:'DejaVu Sans Condensed';
+    font-size: 11.5px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.024em;
+    color: #174c90;
+    text-decoration: underline;
+}
+.mp_footer {
+    padding: 30px 0 30px;
+}
