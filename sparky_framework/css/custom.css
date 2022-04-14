@@ -228,6 +228,91 @@ p.tp-bnf2 {
     font-weight: 400;
 }
 
+/*  direction block */
+.title-decor {
+    text-align: center;
+    padding-top: 95px;
+    padding-bottom: 50px;
+}
+
+/* news block*/
+.sparky_row10 {
+    background-position: bottom 130px left;
+    background-size: 10%;
+}
+.h3-title-news {
+    font-family: 'DejaVu Sans Condensed';
+    font-size: 29.6px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #941345;
+    display: inline-block;
+    padding: 0 40px 0 0;
+}
+span.all-news a {
+    font-family: 'DejaVu Sans Condensed';
+    font-size: 16.9px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #44535c;
+    border: 2px solid #44535c;
+    border-radius: 15px;
+    padding: 3px 10px;
+}
+span.all-news a:hover {
+    opacity: 0.7;
+}
+.block-title-news {
+    padding: 30px 0 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+#news-carusel {
+    padding-bottom: 100px;
+    position: relative;
+    top: -10px;
+}
+.gallery-cell.carouselcontent {
+    border-radius: 8.3px;
+}
+.carouselarticle .contentheading a {
+    font-family: 'DejaVu Sans Condensed';
+    font-size: 17.8px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+}
+.carouselarticle span.small {
+    font-family: 'DejaVu Sans Condensed';
+    font-size: 16.7px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #44535c;
+    padding-top: 10px;
+    display: inline-block;
+}
+.carouselarticle {
+    font-size: 13.9px;
+    font-weight: 400;
+    text-transform: none;
+}
+.contentheading {
+    height: 70px;
+}
+.carouselarticle img {
+    padding-bottom: 35px;
+}
+.gallery-cell {
+    margin: 0 13px!important;
+}
+#directions {
+    border: 1px solid #eee;
+}
+
 /* licenses block*/
 #licenses {
     background-color: #F5F6FA;
