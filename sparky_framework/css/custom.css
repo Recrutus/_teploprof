@@ -293,6 +293,9 @@ a.slade-btt:hover {
     width: 14px!important;
     height: 28px!important;
 }
+.slider-mobile {
+    display: none;
+}
 
 /* count block */
 #count {
@@ -392,6 +395,12 @@ a.direct-button:hover {
     top: 6px;
     left: 30px;
 }
+.detailsBlock7 .direct-item-title::after, .detailsBlock8 .direct-item-title::after {
+    content: url(../images/arrow_drop_directions-right.png);
+    position: relative;
+    top: 6px;
+    left: -201px;
+}
 .detailsBlock1, .detailsBlock2, .detailsBlock3, .detailsBlock4{
     float: left;
 }
@@ -448,12 +457,20 @@ span.arrow-grey4 {
     bottom: 180px;
 }
      /*  direction block добавляяем/меняем на всплывающие плашки */
-.direct-item-5, .direct-item-6, .direct-item-7, .direct-item-8{
+.direct-item-5, .direct-item-6{
     width: 262px;
     height: 317px;
     background-color: #44535c;
     border-radius: 16.5px 0px;
     padding: 20px;
+}
+.direct-item-7, .direct-item-8 {
+    width: 262px;
+    height: 317px;
+    background-color: #44535c;
+    border-radius: 0 16.5px;
+    padding: 20px;
+    text-align: right;
 }
 .listBlock5, .listBlock6{
     display: none;
@@ -477,20 +494,20 @@ span.arrow-grey4 {
     padding: 20px;
     position: relative;
     left: -275px;
-    bottom: 320px;
+    bottom: 315px;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 0px 15px 5px rgb(0 0 0 / 0%);
     box-shadow: 0px 10px 13px -7px #000000, 0px 0px 15px 5px rgb(0 0 0 / 0%);
 }
-.listBlock8{
+.listBlock8 {
     display: none;
     width: 313px;
-    height: 396px;
+    height: 380px;
     background-color: #44535c;
     border-radius: 0 16.5px;
     padding: 20px;
     position: relative;
     left: -325px;
-    bottom: 383px;
+    bottom: 367px;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 0px 15px 5px rgb(0 0 0 / 0%);
     box-shadow: 0px 10px 13px -7px #000000, 0px 0px 15px 5px rgb(0 0 0 / 0%);
 }
@@ -506,20 +523,16 @@ span.arrow-grey5, span.arrow-grey6{
 }
 span.arrow-grey7{
     position: relative;
-    left: 241px;
-    bottom: 5px;
+    left: 30px;
+    bottom: -30px;
 }
 span.arrow-grey8{
     position: relative;
-    left: 293px;
-    bottom: 106px;
+    left: 30px;
+    bottom: 100px;
 }
 
 /* news block*/
-/*.sparky_row10 {
-    background-position: bottom 130px left;
-    background-size: 10%;
-}*/
 .h3-title-news {
     font-family: 'DejaVu Sans Condensed';
     font-size: 29.6px;
@@ -1136,6 +1149,18 @@ height: 100%;
     .item-cont-flex3 {
         padding: 35px 0 15px;
     }
+    .slider-desktop {
+        display: none;
+    }
+     .slider-mobile {
+        display: block;
+    }
+    .formResponsive .formHorizontal .formControlLabel {
+        width: 30%!important;
+    }
+    .formResponsive .formHorizontal .formControlLabel {
+        float: left!important;
+    }
 }
 
 /* до 479px */
@@ -1165,6 +1190,10 @@ height: 100%;
         font-weight: 700;
         line-height: 18px;
     }
+    a.slade-btt {
+        font-size: 11px!important;
+        line-height: 11px!important;
+    }
 }
 
 /* до 374px */
@@ -1178,6 +1207,9 @@ height: 100%;
     }
     .mp_header2 {
         width: 100%!important;
+    }
+    #dj-megamenu91mobile.dj-megamenu-offcanvas-dark .dj-mobile-open-btn {
+        top: 40px!important;
     }
 }
 
